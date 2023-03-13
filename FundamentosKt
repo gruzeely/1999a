@@ -41,3 +41,63 @@ fun main() {
 
 
 //--------------------------------------------------------------
+fun main() {
+    //Concatenação
+    //
+    //
+    //
+    /*
+    var tartaruga = "Michael Havcson"
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan Mbappé é " + tartaruga)
+    
+    
+    var Leclerc = 2 
+    var alonso  = 1  
+    println("A posição do Lek Lek + a posição do Alonso são ${(Leclerc + alonso)}") 
+    println("A posição do Lek Lek + a posição do Alonso são "+ (Leclerc + alonso))
+    
+    var nome = "Eduardo"
+    var idade = 19  
+    var cidade = "São Paulo"
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    //Exercício - Faça  um diálogo de no  mínimo 15 linhas, nele deve conter o nome de quem está falando
+    // os nomes de quem estão falando de forma concatenada usando variáveis
+    // 
+    // 
+    // 
+    // 
+    
+    var nome = "Carro"
+    var nome2 = "moto"
+    var nome3 = "Avião"
+    var lugar= "rua"
+    
+    
+    println("ola $nome tudo bem")
+    println("oi $nome2 estou andando, mas e voce ")
+    println("parece que o seu tanque tá meio vazio")
+    println("bom é que recentemente tá bem dificil")
+    println("a gasolina ta muito cara")
+    println("caramba voce ta reclamando!")
+    println("voce sabia que a vida de um $nome3 é muito mas dificil que a nossa")
+    println("mesmo andando mais rapido que nos")
+    prinln("voce deve imaginar quanto  deve custar a gasolina de um $nome3")
+    println("nossa eu nunca imaginei por esse lado")
+    println("bom agora eu acho que reclamarei menos da vida e pensarei no proximo")
+    println("bom")
+    println("eu acho melhor a gente sair da $lugar")
+    println("é mesmo")
+    println("tchau")
+    println("tchau")
+      
+    
+    
+    
+    
+    
+}
+//---------------------------------------------------------
