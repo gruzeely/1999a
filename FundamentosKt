@@ -41,8 +41,7 @@ fun main() {
 
 
 //--------------------------------------------------------------
-fun main() {
-    //Concatenação
+  //Concatenação
     //
     //
     //
@@ -77,22 +76,23 @@ fun main() {
     var lugar= "rua"
     
     
-    println("ola $nome tudo bem")
-    println("oi $nome2 estou andando, mas e voce ")
-    println("parece que o seu tanque tá meio vazio")
-    println("bom é que recentemente tá bem dificil")
-    println("a gasolina ta muito cara")
-    println("caramba voce ta reclamando!")
-    println("voce sabia que a vida de um $nome3 é muito mas dificil que a nossa")
-    println("mesmo andando mais rapido que nos")
-    prinln("voce deve imaginar quanto  deve custar a gasolina de um $nome3")
-    println("nossa eu nunca imaginei por esse lado")
-    println("bom agora eu acho que reclamarei menos da vida e pensarei no proximo")
-    println("bom")
-    println("eu acho melhor a gente sair da $lugar")
-    println("é mesmo")
-    println("tchau")
-    println("tchau")
+    println(" moto:ola $nome tudo bem")
+    println("carro:oi $nome2 estou andando, mas e voce ")
+    println("carro:parece que o seu tanque tá meio vazio")
+    println("moto:bom é que recentemente tá bem dificil")
+    println("moto:a gasolina ta muito cara")
+    println("carro:caramba voce ta reclamando!")
+    println("carro:voce sabia que a vida de um $nome3 é muito mas dificil que a nossa")
+    println("carro:mesmo andando mais rapido que nos")
+    prinln("carro:voce deve imaginar quanto  deve custar a gasolina de um $nome3")
+    println("moto:nossa eu nunca imaginei por esse lado")
+    println("moto:bom agora eu acho que reclamarei menos da vida e pensarei no proximo")
+    println("carro:bom")
+    println("carro:eu acho melhor a gente sair da $lugar")
+    println("moto:é mesmo")
+    println("carro:tchau")
+    println("moto:tchau")
+      
       
     
     
