@@ -130,25 +130,25 @@ fun main() {
     
     
     
-    println("subtraçao de fogo e agua")
+    println("subtraçao de fogo e agua: 1-1")
     
      var fogo = 1
      var agua = 1
     
     println(fogo- agua)
-    println("adiçao de pão e queijo")
+    println("adiçao de pão e queijo: 1+1")
     var pão = 1 
     var queijo = 1
     println(pão + queijo)
-    println("multiplicaçao de ovos e estomago")
+    println("multiplicaçao de ovos e estomago: 6*3")
     var ovos = 6 
     var estomago = 3 
     println(ovos *estomago)
-    println("divisão de chocolate e crianças")
+    println("divisão de chocolate e crianças: 7/5")
     var chocolate = 7 
     var crianças = 5
     println(chocolate / crianças)
-    println("porcentagem de genio e QI")
+    println("porcentagem de genio e QI: 13%777")
     var genio = 13
     var QI = 777
     println(genio % QI)
