@@ -241,13 +241,7 @@ fun main() {
 }
 //------------------------------------------------------
 fun main() {
-  
-  
-    
-    
-    
-    
-    /*
+      /*
     var senha = "333a" 
      
     if(senha=="azeitona"){
@@ -298,36 +292,38 @@ fun main() {
   
   
   
-  "1"
+/*  "1"
+  var numero=44 
+  var numero2=44 
+ if(numero>numero2){ 
+    println(numero)
+ }else if(numero<numero2){
+ println(numero2)
+}else{ 
+ 
+ println("$numero e $numero2 são iguais")
   
- 
- 
- 
-  
- 
- 
+ }
+ */
  
  "2"
- 
-      var burritos = 0
+ /*
+      var burritos = 100
        
  
-     if(burritos<=0){
-        println("):")
+     if(burritos>55){
+       println("Numero positivo") 
+     }else if(burritos<0){
+      println("Numero negativo")
      }else{
-      println(":)")
+         println("Número igual a zero")
       
-      
+      */
      }
     
     
     
     
     
-    
-    
 }
-
-
-
-//----------------------------------------------------------
+//-----------------------------------------------------
