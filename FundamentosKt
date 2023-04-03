@@ -357,3 +357,50 @@ fun main() {
     
 }
 //----------------------------------------------------------------
+
+    //Show do Péricles
+    // pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos E
+    // estar acompanhado dos pais
+     /*
+      var idade = 15
+      var comPais = false
+      var comIdentidade = true
+      
+    
+      if(idade< 18){ 
+          if(idade >= 12 && comIdentidade==true||comPais== true){
+              println("Aproveite o show.. jovem!!")
+          }else{
+              println("Tu não pode entrar!")
+         }
+      }else{
+         println("Aproveite o show!!")
+          
+      }
+      */
+      
+    //Exercício-> No metroidVania, para o Hero ir para a tela de GameOver,
+    // seus coraçoes precisam ser  igual a zero e suas vidas precisam
+    // ser menor ou igual a zero 
+    // Símule com operadores Lógicos quando ele vai para o GameOver
+    // e quando ele não vai
+     
+     
+     var corações =0
+  
+   
+     var vidas = 0
+    
+    if(corações==0 && vidas<=0){
+    println("GameOver")
+    
+    }else{
+        
+    
+    
+    println("Você esta vivo")
+    
+    }
+    
+}
+//---------------------------------------------------------------------------
