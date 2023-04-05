@@ -385,11 +385,11 @@ fun main() {
     // Símule com operadores Lógicos quando ele vai para o GameOver
     // e quando ele não vai
      
-     
-     var corações =0
+     /*
+     var corações = 9
   
    
-     var vidas = 0
+     var vidas = 9
     
     if(corações==0 && vidas<=0){
     println("GameOver")
@@ -398,9 +398,9 @@ fun main() {
         
     
     
-    println("Você esta vivo")
-    
+    println("Você está vivo")
+    */
     }
+    //------------------------------------------------------------------------------------------
     
-}
 //---------------------------------------------------------------------------
