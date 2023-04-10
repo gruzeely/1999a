@@ -450,3 +450,76 @@ var mes = 5
   }
 } 
 //-------------------------------------------------------------------------------------------
+fun main() {
+// When - Quando 
+// 
+// 	Comparaçao de quando um valor for igual a um determinado valor,
+// 	uma determinada ação será executada
+// 	
+//Estrutura do When 
+//
+// var auxiliar = valor
+// when(auxiliar){
+// 
+// valor -> {ação}
+// valor -> {ação}
+// 
+// else-> (ação)
+// }
+// será usado geralmente quando durante o programa o valor da váriável
+// não for estático, ou seja, ele esriver mudando
+// 
+var mes = 5
+    
+    
+    
+ /*
+  when(mes){ 
+      1-> {println("Lisboa")}
+           
+      
+      2 -> {println("Nova York" )}
+      3 ->{println("Rio de Janeiro")} 
+      4 ->{println("São paulo")} 
+      5 ->{println("Keylandia")} 
+      6 ->{println("Miwalkee")} 
+      7 ->{println("Barcelona")} 
+      8 ->{println("Springfield")} 
+      9 ->{println("Los pollos hermanos")} 
+      10 ->{println("Elmore")} 
+      11 ->{println("Toronto")} 
+      12 ->{println("Seoul")}
+      else -> {println("Acordou")} 
+      
+      
+      
+      
+  }
+  */
+  
+  
+  //Exercicio -> Escreva um programa em Kotlin que declare uma variável chamada
+  //"diaSemana" do tipo String, que represente um dia da semana. Em seguida,utilize a
+  //declaração "When" para exibir uma mensagem na tela informando se o dia da semana é
+  //um dia útil ou um final de semana.
+  //
+  //
+  var diaSemana = "Domingo" 
+    
+    when(diaSemana){
+    
+    "Segunda" -> {println("Hoje é um dia útil")}
+    "Terça" -> {println("Hoje é um dia útil")}
+    "Quarta" ->{println("Hoje é um dia útil")}
+    "Quinta" ->{println("Hoje é um dia útil")}
+    "Sexta" -> {println("Hoje é um dia útil")}
+     "Sabado" ->{println("Hoje é final de semana")}
+    "Domingo" ->{println("Hoje é final de semana")}
+    
+    else -> {println("Isso não é um dia da semana")}
+    
+    }
+  
+  
+}
+//--------------------------------------------------------------------------------------------
