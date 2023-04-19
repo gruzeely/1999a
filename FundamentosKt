@@ -693,7 +693,63 @@ fun main() {
     
     
     
+    //------------------------------------------------------------------------------------------
+    fun main() {
+     //Exercício -> Faça  uma tabuada de um número escolhido, utilizando o laço for
+    // em excessão as tabuadas do 0, 1, e 2
     
+ 
+    
+   /*
+    
+  for(calc in 0..10){ 
+      println(5 * calc)
+ 
+ 
+  }
+     
+  */ 
+    
+   // Collections
+   // 
+   // intervalos, listas, arrays, vetores etc  
+   // 
+   // 
+   
+    //tipos de listas 
+    // 
+    var list1 = listOf("tartaruga",0, 0.1, true)
+    println(list1) //exibir a lista 
+    // propriedade das collections
+    println(list1.size)// retorna o tamanho da lista
+    println(list1.lastIndex) // retornar o último index
+    println(list1[2]) // exibir o valor de um determinado index 
+    println(list1.contains("tartaruga")) // compara se existe um determinado valor dentro da lista 
+    println(list1.indexOf(0)) // indica o index de um determinado valor 
+    println(list1.lastIndexOf(0.1)) // indica o último de um determinado valor 
+    println(list1.first()) // o valor do primeiro index 
+    println(list1.last) 
+    
+    //<Tags> 
+    var list2 = listOf<String>("LeBron James", "Stephen Curry", "Michael Jordan", "Perna longa" , "Klay Thompson")
+    // Lista acima especifica o tipo de dados que vai ser guardado 
+    // 
+    // Obs. listOf() -> IMUTAVEL 
+      
+       
+ 
+    
+    
+    
+  
+    
+
+    
+    
+    
+    
+} 
+//-----------------------------------------------------------------------------------------------------------------------------
     
     
 }
