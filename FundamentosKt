@@ -836,7 +836,100 @@ fun main() {
 }
 
 
-//--------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------- 
+fun main() {
+   //Exercicio -> A cada mes do ano, uma turma de 5 alunos entra um aluno novo 
+     // crie a lista inicial de alunos da turma 
+     // a cada mes adicione um novo aluno (em linhas difirentes)
+     // e 2 meses do ano, 2 alunos foram transferidos da turma 
+     // e em 2 meses do ano, 2 alunos foram substituidos por outros dois (dica: substituidos em meses diferentes) 
+     // Exiba a lista de alunos respectiva de cada mes do ano   
+     // 
+     // 
+      /*
+      var alunos = mutableListOf<String>("Arthur","Gabriel","Gisele","Anthony","Felipe") 
+      
+      
+      println("Janeiro") 
+      alunos.add("Marcelo") 
+      println(alunos) 
+      println("")
+      println("Fevereiro") 
+      alunos.add("Afonso") 
+      println(alunos) 
+      println("")
+      
+      println("Março")
+      alunos.add("Thiago") 
+      alunos.remove("Gisele")
+      println(alunos)
+      println("")
+      println("Abril") 
+      alunos.add("Oracio") 
+      alunos.remove("Felipe")
+      println(alunos)
+       println("")
+       
+      println("Maio") 
+      alunos.add("Zumira")
+      println(alunos) 
+      println("")
+      
+      println("Junho") 
+      alunos.add("Nicolas") 
+      println(alunos) 
+      println("")
+      println("Julho") 
+      alunos.add("Jean")
+      alunos.set(0,"Leonardo")
+      println(alunos)
+      println("")
+      println("Agosto")
+      alunos.add("Laura") 
+      println(alunos) 
+      println("")
+      println("Setembro")
+      alunos.add("Raphael")
+      alunos.set(4,"Sidney")
+      println(alunos)
+      println("")
+      
+      println("Outubro")
+      alunos.add("Xíreia")
+      println(alunos) 
+      println("")
+      
+      println("Novembro")
+      alunos.add("Michelangelo") 
+      println(alunos)
+      println("")  
+        
+     println("Dezembro") 
+     alunos.add("Donatello") 
+     println(alunos)  
+     */
+      
+      
+      //POO
+      //
+      // 
+      //  Programação Orientada a Objetos 
+      //  
+      //  Objetivo: Simular atvidades e situações do mundo real 
+      //  
+      //  Objeto - elementos que podem interagir com um sistema Ex.. Pé
+      //  
+      //  Classe - Denominação de um determinado objeto Ex..: Membros do corpo
+      //  
+      //  Atributos - características, propriedades, parâmetros Ex..: Tamanho
+      //  
+      //  Métodos - Atividades, açoes, que o obj pode realizar Ex..: Chutar 
+      //  
+      //  Herança - atributos de um obj que são HERDADOS  de uma classe 
+      
+      
+} 
+//--------------------------------------------------------------------------------------------------------------------------------------------
     
     
 
