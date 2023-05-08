@@ -982,3 +982,13 @@ class Pessoa {
 //------------------------------------------------------------------------------------------------------------
     
 
+fun main() {
+  // Exercício -> faça o catalogo de animais que estao morando no zoologico de SP
+  // com no minimo 20 animais, sem repetiçao de raça
+}
+
+
+
+
+class Animal(var especie:String, var raca:String, var idade :Int, var dieta: String, var porte:String)
+//--------------------------------------------------------
