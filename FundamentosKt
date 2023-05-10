@@ -992,3 +992,68 @@ fun main() {
 
 class Animal(var especie:String, var raca:String, var idade :Int, var dieta: String, var porte:String)
 //--------------------------------------------------------
+fun main() {
+     // Exercício -> faça o catalogo de animais que estao morando no zoologico de SP
+  // com no minimo 20 animais, sem repetiçao de raça
+
+println("Animais do zoologico de são paulo") 
+
+
+println("")
+
+
+ println("Mamiferos")
+
+var Elefante = Animal ("Elefante","Elefante Asiatico",9, "folha", "Medio",)
+var Camelo =   Animal("Camelo", "kharai",13,"Cacto","Medio")
+var Girafa = Animal("Girafa", "Girafa do sul",14,"capim", "Grande")
+var Rinoceronte = Animal("Rinoceronte","Rinoceronte-java",3,"vegetais","Pequeno")
+var Lobo = Animal("Lobo","Husky siberiano",10,"carne","Medio")
+var Flamingo = Animal("Flamingo","Flamingo-da-puna",18,"crustaceos","Pequeno") 
+var Pinguim = Animal("Pinguim", "Pinguim-azul",4,"Lulas","Pequeno")   
+var Tucano = Animal ("Tucano","Tucaninho",27,"Frutas","Pequeno")
+var Arara = Animal ("Arara","Araracanga",20,"Legumes","Medio")    
+var Cisne = Animal ("Cisne","Anatidae",13,"Insetos","Medio")
+var Baleia = Animal ("Baleia","Baleia franca",30,"Moluscos","Grande")    
+var Arraia = Animal ("Arraia","Batodeia",8,"Caranguejos","Grande")
+var Enguia = Animal ("Enguia","Anguilliade",17,"Vermes","Medio")   
+var Baiacu = Animal ("Baiacu","Sapo do mar",44,"Camaroes","Pequeno")    
+var Piranha = Animal ("Piranha","Serrasalmus",15,"carniça","Pequeno")
+var Tubarão = Animal ("Tubarao","Tubarao martelo",26,"cefalopodes","Grande") 
+var Pacu = Animal("Pacu","Tambaqui",2,"materia vegetal","Medio")
+var Agua viva = Animal ("Agua viva","staurozoa",4,"Camaroes","Medio")
+var Tilapia = Animal ("Tilapia","Tilapia azul",22,"caranguejos"Grande")
+    
+ println(Elefante.especie) 
+ println(Camelo.especie)
+ println(Girafa.especie)
+ println(Rinoceronte.especie)
+ println(Lobo.especie)
+ println("") 
+ println("aves")
+ println(Flamingo.especie)
+ println(Pinguim.especie)
+ println(Tucano.especie)
+ println(Arara.especie)
+ println(Cisne.especie)
+ println("")
+ println("peixes")
+ println(Baleia.especie)
+ println(Arraia.especie)
+ println(Enguia.especie)
+ println(Baiacu.especie)
+ println(Piranha.especie)
+ println(Tubarão.especie)
+ println(Pacu.especie)
+ println(Agua viva.especie)
+ 
+}
+
+
+
+
+
+
+
+class Animal(var especie:String, var raca:String, var idade :Int, var dieta: String, var porte:String)
+//----------------------------------------------------------------------------------------------------------------
