@@ -1057,3 +1057,41 @@ var Tilapia = Animal ("Tilapia","Tilapia azul",22,"caranguejos"Grande")
 
 class Animal(var especie:String, var raca:String, var idade :Int, var dieta: String, var porte:String)
 //----------------------------------------------------------------------------------------------------------------
+fun main() {
+
+var Animalzin = Animal("cachorro", "Shih-tsu",8,"Chinelo","Pequeno")
+
+Animalzin.comer(Animalzin.dieta)
+
+var Animalzao = Animal("Golfinho", "Boto",50,"Sardinha", "pequeno") 
+
+Animalzao.correr(120.0, "Acre")
+
+}
+
+
+
+
+
+
+
+    class Animal(var especie:String, var raca:String, var idade :Int, var dieta: String, var porte:String) {
+    
+    // Estrutura de metodo : 
+    // fun (nomedoParametro: tipoDoparametro){ 
+    // açao 
+    // }  
+    
+    
+    fun comer(alimento:String){
+        println("$especie comendo $alimento, yumm") 
+    }
+    
+    
+    fun correr(velocidade:Double,lugar: String){
+        println("$especie correndo em uma velocidade de $velocidade km/h em no $lugar")
+        
+    }
+
+    }
+    //-------------------------------------------------------------------------------------------------------------------------
